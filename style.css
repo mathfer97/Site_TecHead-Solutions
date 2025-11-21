@@ -22,7 +22,7 @@ header{
 }
 
 header .menu{
-    max-width: 1700px;
+    max-width: 1600px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -32,7 +32,12 @@ header .menu{
 
 .link-container{
     max-width: 1600px;
+    width: 1400px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
 }
 
 header .logo{
@@ -49,7 +54,7 @@ header .logo{
 
 header ul{
     display: inline-flex;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 header ul li{
@@ -72,12 +77,24 @@ header ul li a:hover{
     font-weight: 400;
 }
 
-.img-back{
-    background-image: url(imagens/2139786-1920x1080-desktop-full-hd-high-tech-wallpaper.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
+#carrossel{
+    display: flex;
+    background-color: red;
+    height: 550px;
+    width: 550px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
 }
 
+#carrossel .img{
+    max-width: 800px;
+    height: 450px;
+    width: 400px;
+    margin-right: 15px;
+}
+
+#About{
+    box-sizing: border-box;
+    max-width: 600px;
+}
