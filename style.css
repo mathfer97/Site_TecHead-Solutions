@@ -22,12 +22,17 @@ header{
 }
 
 header .menu{
-    max-width: 1600px;
+    max-width: 1700px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
+}
+
+.link-container{
+    max-width: 1600px;
+    margin: auto;
 }
 
 header .logo{
@@ -44,7 +49,7 @@ header .logo{
 
 header ul{
     display: inline-flex;
-    margin-right: 200px;
+    margin-right: 150px;
 }
 
 header ul li{

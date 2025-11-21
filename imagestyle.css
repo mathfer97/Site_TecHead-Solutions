@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image-container{
+    height: 360px;
+    max-width: 500px;
+    width: 100px;
+}
+
+image.image-container .carousel{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel img{
+    height: 100%;
+    width: 100px;
+    object-fit: cover;
+}
